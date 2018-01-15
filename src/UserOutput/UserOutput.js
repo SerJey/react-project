@@ -3,7 +3,7 @@ import './UserOutput.css';
 
 const userOutput = (props) => {
     return (
-        <div className="Output">
+        <div className="UserOutput">
             <p>Username:</p>
             <p>{props.username}</p>
         </div>
